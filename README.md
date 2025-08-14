@@ -1,0 +1,1 @@
+This game is a simple project to showcase my ruby skills. This game can be played on a console by running 'main.rb'. Each player is required to enter the position to mark.
