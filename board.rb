@@ -7,11 +7,11 @@ class Board
   def draw
     3.times do |i|
       3.times do |j|
-        print "#{@grid[i][j]}"   
+        print " #{@grid[i][j]} "   
         print "|" if j != 2
         puts "" if j == 2
       end
-      puts "-----" if i != 2
+      puts "---+---+---" if i != 2
     end
   end
 
